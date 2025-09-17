@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shashank Gurram - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Shashank Gurram</h2>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">Shashank Gurram</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Graduate | B.Tech'25 | Building AI Agents | Absolute Learner<br>
+                    Aspiring Software Developer | Creating Educational & Tech-focused content
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#about" class="btn btn-secondary">Learn More</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/Shashankgurram" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/shashankgurram-432951290" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@theShashankGurram" target="_blank" class="social-link">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="mailto:shashankgurram03@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-image">
+                        <img src="profile.jpg" alt="Shashank Gurram" class="profile-photo">
+                        <i class="fas fa-user-circle fallback-avatar"></i>
+                    </div>
+                    <h3>Shashank Gurram</h3>
+                    <p>Software Developer & Content Creator</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <!-- Project Card 0 -->
+                <article class="project-card">
+                    <div class="project-badge">May 2025 - Jun 2025</div>
+                    <h3 class="project-title">AI Sales Agent for Customer Support</h3>
+                    <p class="project-summary">AI-powered sales and support agent operating 24/7 without human intervention.</p>
+                    <ul class="project-points">
+                        <li>Achieved up to 5× faster customer response time and projected 50% cost reduction.</li>
+                        <li>Instant Q&A from a custom knowledge base with CRM-integrated lead capture.</li>
+                        <li>Built orchestration using Voiceflow for dialogs and n8n for automations/integrations.</li>
+                    </ul>
+                    <div class="project-tags">
+                        <span>AI</span><span>Voiceflow</span><span>n8n</span><span>CRM</span><span>Automation</span>
+                    </div>
+                </article>
+                <!-- Project Card 1 -->
+                <article class="project-card">
+                    <div class="project-badge">Jan 2025 - Feb 2025</div>
+                    <h3 class="project-title">Personal Expense Tracker</h3>
+                    <p class="project-summary">Developed a Personal Expense Tracker using Python to help users manage their daily expenses efficiently.</p>
+                    <ul class="project-points">
+                        <li>Implemented features to add, view, and delete expenses stored in a CSV file.</li>
+                        <li>Ensured a user-friendly interface with structured data handling.</li>
+                        <li>Showcases Python programming, file handling, and basic data processing.</li>
+                    </ul>
+                    <div class="project-tags">
+                        <span>Python</span><span>CLI</span><span>CSV</span>
+                    </div>
+                    <div class="project-actions">
+                        <a class="project-btn" href="https://github.com/Shashankgurram/Expenses.py" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Project Card 2 -->
+                <article class="project-card">
+                    <div class="project-badge">Aug 2024 - Sep 2024</div>
+                    <h3 class="project-title">Identity Authentication for Examination System</h3>
+                    <p class="project-summary">Advanced authentication platform enhancing exam security and integrity.</p>
+                    <ul class="project-points">
+                        <li>Biometric verification: facial recognition and fingerprint scanning.</li>
+                        <li>Integrated multi-factor authentication (MFA) and real-time monitoring.</li>
+                        <li>Improved reliability; safeguarded against fraudulent activities.</li>
+                    </ul>
+                    <div class="project-tags">
+                        <span>Biometrics</span><span>MFA</span><span>Security</span>
+                    </div>
+                </article>
+
+                <!-- Project Card 3 -->
+                <article class="project-card">
+                    <div class="project-badge">May 2024 - Jun 2024</div>
+                    <h3 class="project-title">Car Rental System</h3>
+                    <p class="project-summary">Java-based rental system improving efficiency and reliability through OOP and MVC.</p>
+                    <ul class="project-points">
+                        <li>Implemented OOP and MVC architecture for maintainability.</li>
+                        <li>30% system efficiency gain; 20% reduction in dev time later iterations.</li>
+                        <li>Robust validation and exception handling reduced runtime errors by 40%.</li>
+                    </ul>
+                    <div class="project-tags">
+                        <span>Java</span><span>OOP</span><span>MVC</span>
+                    </div>
+                    <div class="project-actions">
+                        <a class="project-btn" href="https://github.com/Shashankgurram/Car-Rental-System" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Project Card 4 -->
+                <article class="project-card">
+                    <div class="project-badge">Aug 2025 - September 2025</div>
+                    <h3 class="project-title">Personal Portfolio Website</h3>
+                    <p class="project-summary">A modern, responsive personal portfolio showcasing projects, experience, and contact info.</p>
+                    <ul class="project-points">
+                        <li>Built from scratch using semantic HTML, modern CSS (Grid/Flexbox), and vanilla JavaScript.</li>
+                        <li>Fully responsive with animations, smooth scrolling, and interactive components.</li>
+                        <li>Optimized for performance and accessibility; mobile-first design.</li>
+                    </ul>
+                    <div class="project-tags">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                    </div>
+                    <div class="project-actions">
+                        <a class="project-btn" href="https://shashankgurram.github.io/PersonalPortfolio/" target="_blank" rel="noopener noreferrer">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        I am a B.Tech graduate in Electronics and Communication Engineering with a strong passion for software development, AI, and embedded systems. Over the past few years, I've gained hands-on experience through internships and projects—ranging from building AI agents to creating Java-based applications and hardware-driven solutions.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-robot"></i>
+                            <div>
+                                <h4>AI & Automation</h4>
+                                <p>Built AI agents and explored automation solutions that simplify real-world tasks.</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-code"></i>
+                            <div>
+                                <h4>Software Development</h4>
+                                <p>Developed projects in Java including Car Rental System and ATM Interface.</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-video"></i>
+                            <div>
+                                <h4>Content Creation</h4>
+                                <p>Creating educational content on YouTube about technology and coding.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <h3>0+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>10+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>5+</h3>
+                        <p>Technologies</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3>Technical Skills</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-brain"></i>
+                            <span>Artificial Intelligence (AI)</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-robot"></i>
+                            <span>AI Agents</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-java"></i>
+                            <span>Java Programming</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python Development</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>Data Engineering</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-aws"></i>
+                            <span>AWS Cloud</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>Software Engineering</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-microchip"></i>
+                            <span>Embedded Systems</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-fingerprint"></i>
+                            <span>Hardware Integration</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Data Analysis</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-cogs"></i>
+                            <span>Automation</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Mobile Development</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3>Languages</h3>
+                    <div class="language-items">
+                        <div class="language-item">
+                            <span>Hindi</span>
+                            <div class="language-level">Native</div>
+                        </div>
+                        <div class="language-item">
+                            <span>Telugu</span>
+                            <div class="language-level">Native</div>
+                        </div>
+                        <div class="language-item">
+                            <span>English</span>
+                            <div class="language-level">Professional</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3>Certifications</h3>
+                    <div class="certification-items">
+                        <div class="cert-item">
+                            <i class="fab fa-aws"></i>
+                            <div>
+                                <h4>AWS Academy Cloud Foundations</h4>
+                                <p>AWS Academy Graduate</p>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fas fa-database"></i>
+                            <div>
+                                <h4>AWS Academy Data Engineering</h4>
+                                <p>AWS Academy Graduate</p>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fas fa-code"></i>
+                            <div>
+                                <h4>Java Programming</h4>
+                                <p>CodSoft Certification</p>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fas fa-robot"></i>
+                            <div>
+                                <h4>AI & Machine Learning</h4>
+                                <p>Self-Certified Projects</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Software Development Engineer (SDE)</h3>
+                        <h4>Bluestock Fintech</h4>
+                        <span class="timeline-date">August 2024 - September 2024</span>
+                        <ul class="timeline-description">
+                            <li>Worked on enhancing accessibility features, led to a 20% increase in user satisfaction and accessibility standards.</li>
+                            <li>Conducted optimizations, resulting in a 60% reduction in memory usage and improved application stability.</li>
+                            <li>Resolved complex technical issues promptly, maintaining an average bug resolution time of under 24 hours.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Java Programmer</h3>
+                        <h4>CodSoft</h4>
+                        <span class="timeline-date">April 2024 - May 2024</span>
+                        <ul class="timeline-description">
+                            <li>Developed Java-based applications and solutions</li>
+                            <li>Worked on software engineering projects</li>
+                            <li>Gained hands-on experience in Java programming</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-timeline">
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Bachelor of Technology - BTech</h3>
+                        <h4>CMR Institute of Technology, Hyderabad</h4>
+                        <span class="education-date">June 2021 - May 2025</span>
+                        <p>Electrical, Electronics and Communications Engineering</p>
+                        <p class="education-cgpa">CGPA: <strong>8.3/10</strong></p>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Intermediate</h3>
+                        <h4>Narayana Junior College</h4>
+                        <span class="education-date">April 2019 - March 2021</span>
+                        <p>Mathematics, Physics, Chemistry (MPC)</p>
+                        <p class="education-cgpa">CGPA: <strong>8.7/10</strong></p>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>High School</h3>
+                        <h4>Kallam Anji Reddy Vidyalaya</h4>
+                        <span class="education-date">June 2009 - October 2019</span>
+                        <p>High School Certificate of Competence Program</p>
+                        <p class="education-cgpa">CGPA: <strong>9.5/10</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always open to discussing new opportunities, collaborations, and interesting projects.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Miyapur, Hyderabad, Telangana, India</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+91 9346759994</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>shashankgurram03@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/Shashankgurram" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/shashankgurram-432951290" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@theShashankGurram" target="_blank" class="social-link">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="shashankgurram.github.io/PersonalPortfolio/" target="_blank" class="social-link">
+                            <i class="fas fa-globe"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Shashank Gurram. All rights reserved.</p>
+            <p>Built with ❤️ using HTML, CSS & JavaScript</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
