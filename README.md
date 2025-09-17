@@ -4,7 +4,7 @@ A modern, responsive personal portfolio built with semantic HTML, modern CSS (Gr
 
 ## Live Demo
 
-- https://shashankgurram.github.io/PersonalPortfolio/
+- https://shashankgurram.github.io/Portfolio-new/
 
 ## Features
 
